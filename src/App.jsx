@@ -7,7 +7,7 @@ import Products from "./components/Products";
 function App() {
   return (
     <>
-      <Navbar headerName="Mobile Store" />
+      <Navbar headerName="React Mobile Store" />
       <Main
         h1="Welcome to the mobile store"
         p="This mobile store website is built on reactJS"
