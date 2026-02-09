@@ -1,8 +1,10 @@
 import "./App.css";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
+import Todo from "./components/Todo";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         buttonName="Get Started"
       />
       <Products />
+      <Todo />
+      <Contact />
       <Footer />
     </>
   );
